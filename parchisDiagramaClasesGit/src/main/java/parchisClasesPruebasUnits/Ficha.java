@@ -2,7 +2,7 @@ package parchisClasesPruebasUnits;
 
 public class Ficha {
 	
-	private String color;
+	private Jugador jugador;
 	private int casilla;
 	
 	
