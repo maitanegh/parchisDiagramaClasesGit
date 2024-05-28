@@ -1,6 +1,7 @@
 package parchisClasesPruebasUnits;
 
 public class Ficha {
+
     private int posicion;
 
     public Ficha() {
@@ -15,3 +16,4 @@ public class Ficha {
         this.posicion += pasos;
     }
 }
+
