@@ -1,13 +1,17 @@
 package parchisClasesPruebasUnits;
 
 public class Ficha {
-	
-	private Jugador jugador;
-	private int casilla;
-	
-	public void mover(int cs) {
-		casilla += cs;
-		
-	}
+    private int posicion;
 
+    public Ficha() {
+        this.posicion = 0;
+    }
+
+    public int getPosicion() {
+        return posicion;
+    }
+
+    public void mover(int pasos) {
+        this.posicion += pasos;
+    }
 }
